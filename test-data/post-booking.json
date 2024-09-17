@@ -1,0 +1,11 @@
+{
+    "firstname": "Monika",
+    "lastname": "Klak",
+    "totalprice": 98,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-10-10",
+        "checkout": "2023-10-15"
+    },
+    "additionalneeds": "Breakfast"
+}

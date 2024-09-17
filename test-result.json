@@ -1,0 +1,460 @@
+{
+  "config": {
+    "configFile": "/Users/darwinpatel/Desktop/PortFoliosSourcecode/playwright-demo-api/playwright.config.ts",
+    "rootDir": "/Users/darwinpatel/Desktop/PortFoliosSourcecode/playwright-demo-api",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "/Users/darwinpatel/Desktop/PortFoliosSourcecode/playwright-demo-api/global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/darwinpatel/Desktop/PortFoliosSourcecode/playwright-demo-api/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "/Users/darwinpatel/Desktop/PortFoliosSourcecode/playwright-demo-api",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.39.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "apitest/createBooking/restful-booker.createBooking.test.ts",
+      "file": "apitest/createBooking/restful-booker.createBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create Booking",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1018,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:49.124Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3770cac8e7c4e09a5bd2-2ba7347b3565c41227b7",
+          "file": "apitest/createBooking/restful-booker.createBooking.test.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest/deleteBooking/restful-booker.deleteBooking.test.ts",
+      "file": "apitest/deleteBooking/restful-booker.deleteBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Delete Booking @delete",
+          "ok": true,
+          "tags": [
+            "delete"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 3717,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:49.123Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "743742a913ab42b99cec-fb1f2ba8288cd72871f8",
+          "file": "apitest/deleteBooking/restful-booker.deleteBooking.test.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest/getBooking/restful-booker.getBooking.test.ts",
+      "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get Booking By Lastname @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 1926,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:49.126Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-8f1fa40f990171bd51da",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "Get Booking By Firstname @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 1835,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:51.054Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-689565ee04999abe5ac9",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 42,
+          "column": 5
+        },
+        {
+          "title": "Get Booking By Checkin Date @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:52.890Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-d2e7d8a369f5118cdb8c",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 69,
+          "column": 6
+        },
+        {
+          "title": "Get Booking By Checkout Date @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 2014,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:52.891Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-d3e3a9f32e1b47dcf384",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "Get Booking By ID @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 2141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:54.906Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-399aee7919fd9622b2c0",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 123,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest/getBooking/restful-booker.getBookings.test.ts",
+      "file": "apitest/getBooking/restful-booker.getBookings.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get BookingIds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 2345,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:49.128Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0272691100a6ce1a40f0-4f67501706f2cd0826ba",
+          "file": "apitest/getBooking/restful-booker.getBookings.test.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest/smokeTests/restful-booker.healthcheck.test.ts",
+      "file": "apitest/smokeTests/restful-booker.healthcheck.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@smoke - Service HealthCheck",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 902,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:50.145Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ab74f74f813e12ecc3a8-52746abcc46dfabcb69e",
+          "file": "apitest/smokeTests/restful-booker.healthcheck.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest/updateBooking/restful-booker.updateBooking.test.ts",
+      "file": "apitest/updateBooking/restful-booker.updateBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Update Booking @put",
+          "ok": true,
+          "tags": [
+            "put"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 2837,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  firstname: \u001b[32m'Krystian'\u001b[39m,\n  lastname: \u001b[32m'Wafel'\u001b[39m,\n  totalprice: \u001b[33m22\u001b[39m,\n  depositpaid: \u001b[33mtrue\u001b[39m,\n  bookingdates: { checkin: \u001b[32m'2023-10-18'\u001b[39m, checkout: \u001b[32m'2023-10-25'\u001b[39m },\n  additionalneeds: \u001b[32m'Towels'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-09-17T07:38:51.053Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "03dbe4d146e0f4491156-0508c8f1f5ddd58e23ff",
+          "file": "apitest/updateBooking/restful-booker.updateBooking.test.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-09-17T07:38:47.809Z",
+    "duration": 9244.223
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "firstname": "Krystian",
+    "lastname": "Wafel",
+    "totalprice": 22,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-10-18",
+        "checkout": "2023-10-25"
+    },
+    "additionalneeds": "Towels"
+}

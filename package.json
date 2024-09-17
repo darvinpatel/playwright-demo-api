@@ -1,0 +1,32 @@
+{
+  "name": "playwright-ts-api-testing",
+  "version": "1.0.0",
+  "description": "This repository will include practice project for api tests with the usage of Playwright & TS.",
+  "main": "index.js",
+  "scripts": {
+    "report": "npx playwright test --reporter=html && npx playwright show-report",
+    "debug": "npx playwright test --debug",
+    "test": "npx playwright test",
+    "smoke-tests": "npx playwright test --grep @smoke",
+    "test-get": "npx playwright test --grep @get",
+    "test-post": "npx playwright test --grep @post",
+    "test-delete": "npx playwright test --grep @delete",
+    "test-put": "npx playwright test --grep @put",
+    "test-patch": "npx playwright test --grep @patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darvinpatel/playwright-demo-api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/monikakonieczna/playwright-js-api-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.16.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
